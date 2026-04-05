@@ -145,36 +145,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Technical & Leadership Sections */}
-      <section id="technical" className="max-w-7xl mx-auto py-32 px-8 border-t border-white/5 scroll-mt-20">
-        <div className="grid md:grid-cols-2 gap-24 text-left">
-          <div>
-            <h2 className="text-4xl font-bold text-white mb-12">Technical Stack</h2>
-            <div className="p-8 rounded-[2rem] bg-[#0c0c0c] border border-white/5 hover:border-blue-500/20 transition-all">
-              <div className="flex flex-wrap gap-3">
-                {[...profile.skills.programming, ...profile.skills.tools, ...profile.skills.databases].map(skill => (
-                  <span key={skill} className="px-5 py-2.5 bg-[#161616] rounded-xl text-sm border border-white/5 hover:border-blue-500/50 hover:text-white transition-all text-gray-400 cursor-default">
-                    {skill}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-          <div>
-            <h2 className="text-4xl font-bold text-white mb-12">Leadership</h2>
-            <div className="space-y-6">
-               <div className="p-8 rounded-[2rem] bg-[#0c0c0c] border border-white/5 group hover:border-blue-500/30 transition-all">
-                 <h3 className="text-xl font-bold mb-2 group-hover:text-blue-400 transition-colors">Event Coordinator</h3>
-                 <p className="text-gray-400 font-light leading-relaxed">Organized technical events at SJBIT, managing logistics and cross-functional teams.</p>
-               </div>
-               <div className="p-8 rounded-[2rem] bg-[#0c0c0c] border border-white/5 group hover:border-blue-500/30 transition-all">
-                 <h3 className="text-xl font-bold mb-2 group-hover:text-blue-400 transition-colors">Placement Coordinator</h3>
-                 <p className="text-gray-400 font-light leading-relaxed">Bridge between students and recruitment teams during campus hiring drives.</p>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Final Footer */}
       <footer className="py-32 px-8 border-t border-white/5 bg-[#080808]">
