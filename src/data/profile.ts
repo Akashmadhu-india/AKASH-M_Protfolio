@@ -1,51 +1,52 @@
 export const profile = {
-    name: "Nithin M",
+    name: "Akash M", // [cite: 232]
     contact: {
-      email: "manjunathnithin579@gmail.com",
-      phone: "+91-8197554570",
-      location: "Bangalore, India"
+      email: "madhuakash830@gmail.com", // [cite: 234]
+      phone: "+91-9880302393", // [cite: 233]
+      location: "Bangalore, India" // [cite: 235]
     },
-    summary: "Highly motivated Fresher with a focus on AI, data science, and practical problem-solving. I aim to contribute to impactful technical projects while developing into a skilled professional.",
+    summary: "Familiar with Python, OOPS, SQL, and computer vision, supported by hands-on real-time project experience. Motivated learner with growing interest in software development, automation, and data handling.", // [cite: 266, 268]
     education: [
       {
-        institution: "SJB Institute of Technology",
-        degree: "BE in CSE (Data Science)",
-        score: "7.9 CGPA",
-        year: "2026"
+        institution: "JSS Academy of Technical Education, Bangalore", // [cite: 235]
+        degree: "Bachelor of Engineering - Information Science and Engineering", // [cite: 235]
+        score: "8.06 CGPA", // [cite: 248]
+        year: "2026 (Expected)" // [cite: 249]
       },
       {
-        institution: "Govt. Tool Room & Training Centre",
-        degree: "Diploma",
-        score: "76.11%",
-        year: "2023"
+        institution: "Govt Tool Room and Training Centre (GTTC), Bangalore", // [cite: 237]
+        degree: "Diploma - Tool & Die Making", // [cite: 236]
+        score: "8.1 CGPA", // [cite: 250]
+        year: "2023" // [cite: 251]
       }
     ],
     projects: [
         {
-          title: "Arogya AI",
-          category: "AI & Healthcare",
-          description: "An AI-integrated healthcare platform using NLP-based symptom analysis to connect doctors and patients[cite: 19]. Built with a Flask backend and MongoDB[cite: 19].",
-          tech: ["Python", "Flask", "MongoDB", "NLP", "Gemini AI"],
-          link: "#" // Add your GitHub link here
+          title: "AI-Based Exam Proctoring System", // [cite: 258]
+          category: "Artificial Intelligence", 
+          description: "Developed a real-time AI proctoring system with gaze tracking, head pose estimation, YOLOv3 object detection, and audio-based detection to monitor exam integrity.", // [cite: 260]
+          tech: ["Python", "OpenCV", "MediaPipe", "YOLOV3"], // [cite: 259, 261]
+          link: "#" 
         },
         {
-          title: "Market Basket Analysis",
-          category: "Machine Learning",
-          description: "Predictive modeling using scikit-learn to improve process optimization and extract data-driven insights[cite: 20].",
-          tech: ["Python", "scikit-learn", "Data Science"],
-          link: "#"
-        },
-        {
-          title: "Cloud Password Vault",
-          category: "Cybersecurity",
-          description: "Secure credential manager using AES encryption and PBKDF2 for key derivation.",
-          tech: ["FastAPI", "React", "Python", "Cryptography"],
+          title: "Python Mini Project", // [cite: 262]
+          category: "Software Development",
+          description: "Practiced OOP concepts and problem-solving techniques through small Python programs to strengthen programming fundamentals.", // [cite: 264]
+          tech: ["Python", "OOPS"], // [cite: 263, 264]
           link: "#"
         }
       ],
     skills: {
-      programming: ["Python", "Java (Basics)", "HTML", "CSS", "MySQL"],
-      databases: ["MongoDB"],
-      tools: ["SQL", "Power BI", "Tableau", "VS Code", "Jupyter"]
-    }
+      programming: ["Python (in progress)", "Java (basics)", "HTML"], // [cite: 243]
+      databases: ["MySQL (Basics)"], // [cite: 244]
+      tools: ["Power BI", "Canva", "GD&T", "2D drawing analysis"] // [cite: 245, 267]
+    },
+    experience: [
+      {
+        role: "Quality Intern", // [cite: 246]
+        company: "Toyotetsu India Pvt. Ltd (TTIA)", // [cite: 246]
+        duration: "Sep 2022 - July 2023", // [cite: 254]
+        description: "Utilized checklists and 2D drawing analysis to lead quality inspections and perform critical component validation." // [cite: 255]
+      }
+    ]
   };
