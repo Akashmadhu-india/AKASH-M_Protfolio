@@ -39,7 +39,7 @@ export default function Home() {
               <Phone size={16} />
             </a>
             <a 
-              href="https://www.linkedin.com/in/nithin-manjunath-9aab91364" 
+              href="https://www.linkedin.com/in/akash-m-87a6782b3" 
               target="_blank" 
               rel="noopener noreferrer" 
               title="LinkedIn Profile"
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
 
             <a 
-              href="/Nithin_Resume.pdf" 
+              href="1JS23IS401_Akash_M_Resume.pdf"
               download 
               className="relative inline-flex items-center gap-3 bg-white text-black px-12 py-5 rounded-2xl font-black overflow-hidden group hover:text-white transition-all duration-500"
             >
@@ -184,7 +184,7 @@ export default function Home() {
             <a href={`mailto:${profile.contact.email}`} className="p-6 rounded-3xl bg-white/5 hover:bg-blue-600 transition-all duration-500 hover:-translate-y-2">
               <Mail size={40} className="text-gray-400 hover:text-white" />
             </a>
-            <a href="https://www.linkedin.com/in/nithin-manjunath-9aab91364" target="_blank" className="p-6 rounded-3xl bg-white/5 hover:bg-[#0077B5] transition-all duration-500 hover:-translate-y-2">
+            <a href="www.linkedin.com/in/akash-m-87a6782b3" target="_blank" className="p-6 rounded-3xl bg-white/5 hover:bg-[#0077B5] transition-all duration-500 hover:-translate-y-2">
               <LinkedinIcon size={40} className="text-gray-400 hover:text-white" />
             </a>
           </div>
