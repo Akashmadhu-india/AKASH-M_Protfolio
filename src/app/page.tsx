@@ -60,7 +60,7 @@ export default function Home() {
             <div className="absolute -inset-4 bg-gradient-to-r from-blue-600 to-cyan-400 rounded-[2.5rem] blur opacity-15 group-hover:opacity-40 transition duration-1000 group-hover:duration-300"></div>
             <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-[2.5rem] overflow-hidden border border-white/10 shadow-2xl bg-[#111]">
               <img 
-                src="/new-photo.jpg" 
+                src="/me.jpg" 
                 alt={profile.name} 
                 className="w-full h-full object-cover object-top transition-all duration-700 group-hover:scale-105"
               />
@@ -83,7 +83,7 @@ export default function Home() {
             </div>
 
             <a 
-              href="1JS23IS401_Akash_M_Resume.pdf"
+              href="/1JS23IS401_AkashM_RESUME.pdf"
               download 
               className="relative inline-flex items-center gap-3 bg-white text-black px-12 py-5 rounded-2xl font-black overflow-hidden group hover:text-white transition-all duration-500"
             >
